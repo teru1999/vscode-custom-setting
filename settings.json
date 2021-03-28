@@ -1,0 +1,74 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": -1,
+  "remote.SSH.remotePlatform": {
+    "default": "linux",
+    "133.2.37.187": "linux"
+  },
+  // 以下CUIツール
+  // 1. powershell
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // 2. command prompt
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // 3. bash
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "workbench.tree.indent": 30,
+  "editor.fontSize": 18,
+  "window.zoomLevel": -0.4,
+  "terminal.integrated.fontSize": 15,
+  "explorer.decorations.badges": false,
+  "terminal.integrated.automationShell.windows": "",
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    // 4. 右下のpopup削除
+    "csharp.suppressDotnetInstallWarning": false,
+    // 5. settingからminimapを非表示
+    // 6. 色の設定
+    "statusBar.background": "#616161",
+    "tab.activeForeground": "#616161",
+    "tab.inactiveForeground": "#616161",
+    "editor.lineHighlightBackground": "#fff",
+    "editor.lineHighlightBorder": "#C5C8C6",
+    "terminal.background": "#343434",
+    "terminal.foreground": "#fff",
+    "terminalCursor.background": "#C5C8C6",
+    "terminalCursor.foreground": "#C5C8C6",
+    "terminal.ansiBlack": "#343434",
+    "terminal.ansiBlue": "#729fcf",
+    "terminal.ansiBrightBlack": "#969896",
+    "terminal.ansiBrightBlue": "#729fcf",
+    "terminal.ansiBrightCyan": "#729fcf",
+    "terminal.ansiBrightGreen": "#fff",
+    "terminal.ansiBrightMagenta": "#729fcf",
+    "terminal.ansiBrightRed": "#CC342B",
+    "terminal.ansiBrightWhite": "#729fcf",
+    "terminal.ansiBrightYellow": "#fce94f",
+    "terminal.ansiCyan": "#729fcf",
+    "terminal.ansiGreen": "#729fcf",
+    "terminal.ansiMagenta": "#729fcf",
+    "terminal.ansiRed": "#CC342B",
+    "terminal.ansiWhite": "#C5C8C6",
+    "terminal.ansiYellow": "#fce94f"
+  },
+  "workbench.editor.decorations.colors": true,
+  "editor.tokenColorCustomizations": null,
+  "workbench.colorTheme": "Clouds",
+  "editor.semanticTokenColorCustomizations": null,
+  "editor.minimap.enabled": false,
+  "settingsSync.ignoredExtensions": [
+  
+  ],
+  "python.formatting.provider": "none",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
+}
