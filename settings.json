@@ -1,6 +1,6 @@
 {
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": -1,
+  // "window.zoomLevel": -1,
   "remote.SSH.remotePlatform": {
     "default": "linux",
     "133.2.37.187": "linux"
@@ -12,7 +12,6 @@
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   // 3. bash
   // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  
   "git.autofetch": true,
   "workbench.iconTheme": "material-icon-theme",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -50,7 +49,7 @@
     "terminal.ansiBrightWhite": "#729fcf",
     "terminal.ansiBrightYellow": "#fce94f",
     "terminal.ansiCyan": "#729fcf",
-    "terminal.ansiGreen": "#729fcf",
+    "terminal.ansiGreen": "#C5C8C6",
     "terminal.ansiMagenta": "#729fcf",
     "terminal.ansiRed": "#CC342B",
     "terminal.ansiWhite": "#C5C8C6",
@@ -61,14 +60,53 @@
   "workbench.colorTheme": "Clouds",
   "editor.semanticTokenColorCustomizations": null,
   "editor.minimap.enabled": false,
-  "settingsSync.ignoredExtensions": [
-  
-  ],
+  "settingsSync.ignoredExtensions": [],
   "python.formatting.provider": "none",
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
       "filenamePattern": "*.ipynb"
     }
-  ]
+  ],
+  
+  // latex
+  "latex-workshop.latex.tools": [
+    {
+      "name": "Latexmk (pLaTeX)",
+      "command": "latexmk",
+      "args": [
+        "-f",
+        "-gg",
+        "-pv",
+        "-latex='platex'",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    },
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pLaTeX",
+      "tools": [
+        "Latexmk (pLaTeX)"
+      ]
+    },
+  ],
+  "latex-workshop.latex.magic.args": [
+    "-f",
+    "-gg",
+    "-pv",
+    "-synctex=1",
+    "-interaction=nonstopmode",
+    "-file-line-error",
+    "%DOC%"
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.view.pdf.refviewer": "tabOrBrowser",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "editor.fontLigatures": null,
+  
 }
